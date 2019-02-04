@@ -41,7 +41,7 @@
                 <div class="col-lg-10 col-md-offset-1">
                     <div class="alert alert-warning" role="alert">
                         <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                        This domain name is {$whoisData['status']}
+                        <span style="font-size:14px">This domain name is {$whoisData['status']}</span>
                     </div>
                 </div>
             </div>
