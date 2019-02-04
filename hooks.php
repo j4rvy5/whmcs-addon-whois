@@ -9,7 +9,7 @@ add_hook('ClientAreaPrimaryNavbar', 1, function (MenuItem $primaryNavbar) {
     $newMenu = $primaryNavbar->addChild(
         BRAND_NAME_WHOIS,
         array(
-            'name' => BRAND_NAME_WHOIS,
+            'name' => BRAND_NAME_WHOIS . " lookup",
             'uri' => 'index.php?m=whois',
             'order' => 99
         )

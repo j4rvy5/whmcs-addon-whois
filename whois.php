@@ -13,7 +13,7 @@ function whois_config()
         "name" => "WHOIS for Clients",
         "description" => "WHOIS for Client Area",
         "version" => "0.1",
-        "author" => "Jigar Vyas"
+        "author" => "j4rvy5"
     ];
 }
 
